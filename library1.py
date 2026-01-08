@@ -5,7 +5,7 @@ def library_book_details(book_id, book_title, author_name, year_of_publication):
         f"Author Name: {author_name}\n"
         f"Year of Publication: {year_of_publication}"
     )
-from library import library_book_details
+from book.library1 import library_book_details
 
 result = library_book_details(
     101,
